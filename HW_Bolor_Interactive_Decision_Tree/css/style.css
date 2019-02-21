@@ -1,0 +1,95 @@
+body, html {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'avenir';
+}
+
+#title {
+  margin-left: 50px;
+  margin-top: 40px;
+  font-size: 90px;
+  float: left;
+  display: inline;
+}
+
+.wrapper {
+  width: 640px;
+  margin: 40px 40px auto auto;
+  height: 100%;
+  padding-top: 0px;
+  float: right;
+}
+
+#quiz {
+  background-color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 0px;
+  width: 100%;
+  color: #000000;
+  text-align: center;
+}
+
+#quiz > h1 {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.questions {
+  font-size: 40px;
+  font-weight: 100;
+  font-style: normal;
+  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  padding: 20px;
+  padding-top: 20px;
+}
+
+.answers div {
+  padding: 10px 0 0 0;
+  font-size: 16px;
+}
+
+.answers div:hover {
+  cursor: pointer;
+  color: #FBCB43;
+}
+
+.answers {
+  padding: 0px 0 10px 0px;
+}
+
+.answers div {
+  width: 50%;
+  margin: 0 auto ;
+  padding-bottom: 15px;
+  border-top: 1px solid grey;
+}
+
+.answers div:first-child {
+  border: none;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 50px;
+}
+
+#reload {
+  height: 80px;
+  width: 80px;
+  background-color: #ffffff;
+  margin: 35px;
+  z-index: 10;
+  box-shadow: 10px 0px 10px rgba(0,0,0,0.19);
+  border-radius: 50%;
+
+}
