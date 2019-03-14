@@ -1,0 +1,73 @@
+{
+   "projectImages": [
+      {
+         "name": "2D Many Features No Function",
+         "imgPath": "assets/images/projects/2dmanyfeaturesnofunction.jpg"
+      },
+      {
+         "name": "3D Elongation",
+         "imgPath": "assets/images/projects/3delongation.jpg"
+      },
+      {
+         "name": "5in5 Day1",
+         "imgPath": "assets/images/projects/5in5day1.jpg"
+      },
+      {
+         "name": "5in5 Day2",
+         "imgPath": "assets/images/projects/5in5day2.jpg"
+      },
+      {
+         "name": "5in5 Day3",
+         "imgPath": "assets/images/projects/5in5day3.jpg"
+      },
+      {
+         "name": "5in5 Day4",
+         "imgPath": "assets/images/projects/5in5day4.jpg"
+      },
+      {
+         "name": "5in5 Day5",
+         "imgPath": "assets/images/projects/5in5day5.jpg"
+      },
+      {
+         "name": "Base Converter",
+         "imgPath": "assets/images/projects/baseconverter_cover.jpg"
+      },
+      {
+         "name": "Critique Exercise",
+         "imgPath": "assets/images/projects/critiqueexercise.jpg"
+      },
+      {
+         "name": "Group Discussion Summary",
+         "imgPath": "assets/images/projects/groupdiscussionsummary.jpg"
+      },
+      {
+         "name": "Instruction Set for Strangers",
+         "imgPath": "assets/images/projects/instructionsetforstrangers.jpg"
+      },
+      {
+         "name": "Paper Prototypes",
+         "imgPath": "assets/images/projects/paperprototypes.jpg"
+      },
+      {
+         "name": "Paper Submission1",
+         "imgPath": "assets/images/projects/papersubmission1.jpg"
+      },
+      {
+         "name": "Statement of Intent",
+         "imgPath": "assets/images/projects/statementofintent.jpg"
+      },
+      {
+         "name": "Summary Brainstorming",
+         "imgPath": "assets/images/projects/summarybrainstorming.jpg"
+      },
+      {
+         "name": "Updated Statement of Intent",
+         "imgPath": "assets/images/projects/updatedstatementofintent.jpg"
+      },
+      {
+         "name": "Video Prototype",
+         "imgPath": "assets/images/projects/videoprototype.jpg"
+      }
+
+  ]
+}

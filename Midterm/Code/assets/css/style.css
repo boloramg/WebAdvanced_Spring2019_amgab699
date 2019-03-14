@@ -1,0 +1,178 @@
+/*body{
+    width:100%;
+    height:100%;
+    background-color: #f9eee4;
+}
+
+#main {
+    width: 2600px;
+    height: 77vh;
+    margin: 0px;
+    padding: 0px;
+    background-color: #dddcdb;
+    background-image: url("bg.jpg");
+
+}*/
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:#f9eee4;
+    font-family:Georgia;
+    font-size: 34px;
+    font-style: bold;
+    letter-spacing:-1px;
+    width:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    bottom:0px;
+}
+
+
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 1);
+    text-align: center;
+    color: rgb(0,0,0,0);
+}
+
+
+
+#title {
+    font-family: Quicksand;
+    font-size: 120px;
+    color: #2c1eba;
+    position:fixed;
+    top:60px;
+    right:48px;
+}
+#stripe {
+    position: fixed;
+    display: block;
+    top:200px;
+    left:1370px;
+}
+#description {
+    font-family: Avenir;
+    font-size: 30px;
+    color: #2c1eba;
+    position:fixed;
+    top:260px;
+    right:48px;
+    text-align: right;
+}
+#synergize {
+  height: 80px;
+  width: 80px;
+  background-color: #ffffff;
+  position: fixed;
+  top: 598px;
+  left:726px;
+/*  z-index: 1;*/
+  box-shadow: 10px 0px 10px rgba(0,0,0,0.19);
+  border-radius: 50%;
+}
+
+#placeholder1{
+    height: 50px;
+    width: 50px;
+    background-color: #cccccc;
+    position: fixed;
+    top: 612px;
+    left:206px;
+
+/*    z-index: 1;*/
+}
+
+#placeholder2{
+    height:50px;
+    width: 50px;
+    background-color: #cccccc;
+    position: fixed;
+    top: 612px;
+    left:266px;
+
+/*    z-index: 2;*/
+}
+
+#placeholder3{
+    height:50px;
+    width: 50px;
+    background-color: #cccccc;
+    position: fixed;
+    top: 612px;
+    left:326px;
+
+/*    z-index: 2;*/
+}
+
+#layer2 {
+    height:96%;
+    width:98%;
+    background-color: #ffffff;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    opacity: 0.6;
+    z-index: 5;
+}
+
+.hidden {
+    opacity: 0;
+}
+.visible {
+    opacity: 1;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: /*1280px 1280px 1280px;*/ 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666%;
+    grid-template-rows: /*100%;*/7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923% 7.6923%;
+    padding: 0px;
+    margin:0px;
+    bottom:0px;
+    width:200%;
+    float:left;
+    height:80%;
+    text-shadow:1px 1px 2px #f0f0f0;
+/*    background:#000 url(../images/bg.jpg) no-repeat top right;*/
+    background-color: #dddcdb;
+}
+.section h2{
+    margin:50px 0px 30px 50px;
+}
+.section p{
+    margin:20px 0px 0px 50px;
+    width:600px;
+}
+.main{
+    color:#fff;
+    background-color: #dddcdb;
+    /*background:#000 url(../images/bg.jpg) no-repeat top right;*/
+    float: left;
+
+}
+
+.section ul{
+    list-style:none;
+    margin:20px 0px 0px 550px;
+}
+.black ul li{
+    float:left;
+    padding:5px;
+    margin:5px;
+    color:#aaa;
+}
+.black ul li a{
+    display:block;
+    color:#f0f0f0;
+}
+.black ul li a:hover{
+    text-decoration:none;
+    color:#fff;
+}
