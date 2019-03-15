@@ -1,18 +1,3 @@
-/*body{
-    width:100%;
-    height:100%;
-    background-color: #f9eee4;
-}
-
-#main {
-    width: 2600px;
-    height: 77vh;
-    margin: 0px;
-    padding: 0px;
-    background-color: #dddcdb;
-    background-image: url("bg.jpg");
-
-}*/
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
@@ -21,10 +6,11 @@
     margin:0;
     padding:0;
 }
+
 body{
     background:#f9eee4;
     font-family:Georgia;
-    font-size: 34px;
+    font-size: 12px;
     font-style: bold;
     letter-spacing:-1px;
     width:100%;
@@ -33,20 +19,17 @@ body{
     left:0px;
     bottom:0px;
 }
-
-
 .grid-item {
-    border: 1px solid rgba(0, 0, 0, 1);
+    border: 0px solid rgba(0, 0, 0, 0);
     text-align: center;
     color: rgb(0,0,0,0);
+    opacity: 0.3;
 }
-
-
-
 #title {
     font-family: Quicksand;
     font-size: 120px;
     color: #2c1eba;
+    text-shadow: 3px 3px 5px yellow;
     position:fixed;
     top:60px;
     right:48px;
@@ -54,30 +37,47 @@ body{
 #stripe {
     position: fixed;
     display: block;
-    top:200px;
-    left:1370px;
+    top:218px;
+    left:1372px;
 }
 #description {
     font-family: Avenir;
     font-size: 30px;
     color: #2c1eba;
+    text-shadow: 1px 1px 3px yellow;
     position:fixed;
     top:260px;
     right:48px;
     text-align: right;
 }
 #synergize {
-  height: 80px;
-  width: 80px;
-  background-color: #ffffff;
-  position: fixed;
-  top: 598px;
-  left:726px;
+    font-family: Quicksand;
+    height: 80px;
+    width: 80px;
+    background-color: #f9eee4;
+    color: #2c1eba;
+    position: fixed;
+    top: 598px;
+    left:830px;
 /*  z-index: 1;*/
-  box-shadow: 10px 0px 10px rgba(0,0,0,0.19);
-  border-radius: 50%;
+    box-shadow: 0px 0px 0px rgba(1,1,1,0.19);
+    border-radius: 50%;
+    border: 2px solid #2c1eba;
 }
-
+#studiomode {
+    font-family: Quicksand;
+    height: 80px;
+    width: 80px;
+    background-color: #f9eee4;
+    color: #2c1eba;
+    position: fixed;
+    top: 598px;
+    left:620px;
+/*  z-index: 1;*/
+    box-shadow: 0px 0px 0px rgba(1,1,1,0.19);
+    border-radius: 50%;
+    border: 2px solid #2c1eba;
+}
 #placeholder1{
     height: 50px;
     width: 50px;
@@ -85,10 +85,8 @@ body{
     position: fixed;
     top: 612px;
     left:206px;
-
 /*    z-index: 1;*/
 }
-
 #placeholder2{
     height:50px;
     width: 50px;
@@ -96,10 +94,8 @@ body{
     position: fixed;
     top: 612px;
     left:266px;
-
 /*    z-index: 2;*/
 }
-
 #placeholder3{
     height:50px;
     width: 50px;
@@ -107,10 +103,8 @@ body{
     position: fixed;
     top: 612px;
     left:326px;
-
 /*    z-index: 2;*/
 }
-
 #layer2 {
     height:96%;
     width:98%;
@@ -121,14 +115,12 @@ body{
     opacity: 0.6;
     z-index: 5;
 }
-
 .hidden {
     opacity: 0;
 }
 .visible {
     opacity: 1;
 }
-
 .section{
     display: grid;
     grid-template-columns: /*1280px 1280px 1280px;*/ 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666% 1.6666%;
@@ -139,7 +131,7 @@ body{
     width:200%;
     float:left;
     height:80%;
-    text-shadow:1px 1px 2px #f0f0f0;
+    text-shadow:1px 1px 2px #ffffff;
 /*    background:#000 url(../images/bg.jpg) no-repeat top right;*/
     background-color: #dddcdb;
 }
@@ -151,12 +143,15 @@ body{
     width:600px;
 }
 .main{
-    color:#fff;
+    color:#ffffff;
     background-color: #dddcdb;
     /*background:#000 url(../images/bg.jpg) no-repeat top right;*/
-    float: left;
-
+    /*float: left;*/
 }
+
+
+
+
 
 .section ul{
     list-style:none;
