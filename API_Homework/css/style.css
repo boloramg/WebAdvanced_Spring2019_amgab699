@@ -1,0 +1,64 @@
+html, body {
+	background-color: none;
+}
+
+html {
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover;
+/*	height: 500px;*/
+}
+
+
+#json-container, .json-container{
+	font-size: 16px;
+	color: white;
+	padding: 30px;
+	/*display: block;*/
+	/*margin: 30px;*/ 
+	text-align: left;
+	margin: 0 auto;
+	top:300vh;
+}
+
+pollutionChart{
+	z-index: 10;
+}
+
+.btn{
+	background-color: black;
+	color: white;
+	width: 10vw;
+	height: 2vh;
+	padding: 10px;
+	border-radius: 2px;
+	font-size: 16px;
+	text-align: center;
+	/*margin: 0 0;*/
+	display: inline-block;
+}
+
+.btn:hover{
+	background-color: black;
+	color: lightblue;
+	cursor: pointer;
+}
+
+#btn1{
+	position: fixed;
+	top: 15vh;
+	left: 20vw;
+}
+
+#btn2{
+	position: fixed;
+	top: 15vh;
+	left: 44vw;
+}
+
+#btn3{
+	position: fixed;
+	top: 15vh;
+	left: 68vw;
+}
+
