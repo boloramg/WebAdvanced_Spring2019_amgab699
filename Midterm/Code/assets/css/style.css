@@ -9,10 +9,6 @@
 
 body{
     background:#f9eee4;
-    font-family:Georgia;
-    font-size: 12px;
-    font-style: bold;
-    letter-spacing:-1px;
     width:100%;
     position:absolute;
     top:0px;
@@ -145,29 +141,4 @@ body{
 .main{
     color:#ffffff;
     background-color: #dddcdb;
-    /*background:#000 url(../images/bg.jpg) no-repeat top right;*/
-    /*float: left;*/
-}
-
-
-
-
-
-.section ul{
-    list-style:none;
-    margin:20px 0px 0px 550px;
-}
-.black ul li{
-    float:left;
-    padding:5px;
-    margin:5px;
-    color:#aaa;
-}
-.black ul li a{
-    display:block;
-    color:#f0f0f0;
-}
-.black ul li a:hover{
-    text-decoration:none;
-    color:#fff;
 }

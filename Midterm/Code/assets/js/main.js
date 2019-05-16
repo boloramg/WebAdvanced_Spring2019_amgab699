@@ -1,5 +1,5 @@
 
-//BELOW SCROLLING CODE NOT WORKING AS EXPECTED
+//BELOW SCROLLING CODE NOT WORKING AS EXPECTED, THEREFORE DID NOT USE IT IN THE JS
 // var lastScrollLeft = 0;
 // $(window).scroll(function() {
 //     var documentScrollLeft = $(document).scrollLeft();
@@ -12,7 +12,7 @@
 
 
 
-//BELOW SCROLLING CODE NOT WORKING AS EXPECTED TOO
+//BELOW SCROLLING CODE NOT WORKING AS EXPECTED TOO, THEREFORE DID NOT USE IT IN THE JS
 // $(document).ready(function(){
 //     $('#main').hScroll(100); // You can pass (optionally) scrolling amount
 // });
@@ -40,7 +40,7 @@ $(function() {
 	$('ul.nav a').bind('click',function(event){
 		var $anchor = $(this);
 		
-		//if you want to use one of the easing effects:
+		//if the easing effects are desired:
 		$('html, body').stop().animate({
 			scrollLeft: $($anchor.attr('href')).offset().left
 		}, 1500,'easeInOutExpo');
@@ -55,7 +55,7 @@ $(function() {
 
 
 
-//BELOW CODE NOT WORKING AS EXPECTED
+//BELOW CODE NOT WORKING AS EXPECTED, THEREFORE DID NOT USE
 // $(document).ready(function () {
 //   var jsonURL = "../projectImages.json";
 //   $.getJSON(jsonURL, function (json)
@@ -79,31 +79,17 @@ for (var i=0; i<780; i++){
 	var itemRef = "item"+String(i);
 	var itemNum = String(i+1);
 	itemVar.push(itemRef);
-	$('.main').append('<div class="grid-item" id='+itemRef+'></div>');
+	$('.main').append('<div class="grid-item" id='+itemRef+'></div>'); //creating a div for each image and giving it reference id=itemRef 
 	//USE BELOW LINE INSTEAD OF ABOVE LINE IF WANT TO SEE GRID NUMBERING
 	// $('.main').append('<div class="grid-item" id='+itemRef+'>'+itemNum+'</div>');
 
 }
-console.log(itemVar);
 
+console.log(itemVar);
 
 var imgSrc = '';
 
-
-	// $(document).ready(function () {
-	// 	var jsonURL = "projectImages.json";
-	// 	$.getJSON(jsonURL, function (json) {
- // 			$.each(json.projectImages, function () {
- //      			imgSrc = '<img src=../' + this.imgPath + " style='width:100%;'>";
- //      			ourImgSrcArray.push(imgSrc);
- //      		});
- // 		});
- // 		console.log(ourImgSrcArray);
-	// });
-
-
-
-var ourImgSrcArray = [];
+var ourImgSrcArray = []; //creating an array for all image sources
 
 	$(document).ready(function () {
 		var jsonURL = "projectImages.json";
@@ -113,7 +99,7 @@ var ourImgSrcArray = [];
       			// imgSrc = this.imgPath;
       			// var image = new Image();
       			// image.src = this.imgPath;
-      			ourImgSrcArray.push(image.imgPath);
+      			ourImgSrcArray.push(image.imgPath); //adding all image sources (i.e.paths) to the array with .push
       		});
  			console.log(ourImgSrcArray);
 
@@ -125,6 +111,7 @@ var ourImgSrcArray = [];
 					selectedItem2 = array2.slice(index1,index1+1);
 					console.log(selectedItem1);
 					console.log(selectedItem2);
+					//the below line is pulling an item from the array and appending it inside the div with the corresponding item reference number
 					$("#"+selectedItem1).append('<img src="'+selectedItem2+'"; style="width:100%"; alt="oh no">');
 				};
 			}
@@ -134,7 +121,7 @@ var ourImgSrcArray = [];
 
 	
 
-
+//Only three of the images are clickable (i.e. function as button) currently; they are #item1, #item747, #item408
 $("#item1").click(function(){
 	$("#placeholder1").removeClass("hidden");
   	$("#placeholder1").addClass("visible");
@@ -164,10 +151,3 @@ $("#studiomode").click(function(){
 $("#synergize").click(function(){
   	$('body').html($('<div id="layer2"></div>'));
 });
-
-
-
-// var $div = $("<div>", {id: "layer2", "class": "visible"});
-// $div.click(function(){ /* ... */ });
-// $("#box").append($div);
-
